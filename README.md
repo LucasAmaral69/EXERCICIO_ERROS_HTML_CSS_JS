@@ -1,1 +1,2 @@
-# EXERCICIO_ERROS_HTML_CSS_JS
+# SISTEMA_ESTOQUE
+Respositório destinado ao sistema de gerenciamento de estoque

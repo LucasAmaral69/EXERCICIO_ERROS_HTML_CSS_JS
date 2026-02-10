@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelaChá</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main class="loginContainer">
+    <h2>Acesso ao Sistema DelaChá</h2>
+
+    <label for="tipoUsuario">Cargo:</label>
+    <select id="tipoUsuario">
+        <option value="0">Selecione...</option>
+        <option value="vendedor">Vendedor</option>
+        <option value="estoquista">Estoquista</option>
+        <option value="administrativo">Administrativo</option>
+    </select>
+
+    <label for="inpSenha">Senha</label>
+    <input type="password" id="inpSenha" placeholder="Digite sua Senha" onkeydown="verificarEnter(event)">
+
+    <button onclick="entrar()">Entrar</button>
+
+    <p id="pMensagem"></p>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
